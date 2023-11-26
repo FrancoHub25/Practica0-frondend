@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    margin: auto;
+}
+
+.home img {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+
+.homecont {
+    position: absolute;
+    width: 60%;
+    margin: auto;
+    min-height: 9vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    width: 80%;
+    margin: 90px auto;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main img {
+    width: 500px;
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+/*Marcas reconocidas por sus ventas */
+
+.marcas-cono {
+    background: steelblue;
+    padding: 10px 0px;
+}
+
+.title-marcas {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.ultimas-marcas {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.img-marcas {
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+}
+
+
+/*galeria*/
+
+.galeria {
+    margin: 40px 0px;
+}
+
+.text-galeria {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+article {
+    width: 350px;
+}
+
+.img-gal {
+    width: 100%;
+}
+
+/*Fondo */
+
+.fondo-footer {
+    background: steelblue;
+    padding: 20px 0px;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    width: 350px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+footer h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.redes {
+    text-align: center;
+}
+
+.ico {
+    font-size: 30px;
+    color: white;
+    background: gray;
+    padding: 15px 15px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+.fondo-pie {
+    background: slategray;
+    padding: 20px 0px;
+}
+
+.pie {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont-pie {
+    text-align: center;
+    width: 550px;
+    color: white;
+}

@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: steelblue;
+}
+
+body {
+    font-family: tahoma;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#subir {
+    display: none;
+    text-decoration: none;
+    font-size: 32px;
+    color: whitesmoke;
+    background-color: skyblue;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    border-radius: 50%;
+    padding: 10px 20px;
+}
